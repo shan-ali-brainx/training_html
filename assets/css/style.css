@@ -1,5 +1,11 @@
+body{
+  font-family: 'Montserrat', sans-serif;}
+.align-center{
+  text-align: center;
+  margin: 0 auto;
+}
+
 .container{
-    border: 2px solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,9 +90,10 @@
   }
   .Rounded-Rectangle-606 li{
     list-style-type:none;
+    text-align: center;
   }
   .SIGN-UP {
-    width: 193px;
+   text-align: -webkit-center;
     height: 43px;
     font-family: Montserrat;
     font-size: 35px;
@@ -123,7 +130,7 @@
     border-radius: 2px;
     border: solid 2px #fe0000;
     background-color: #fe0000;
-    margin-left: 609.5px;
+   margin: 0 auto;
   }
 
   .The-blockchain-space-has-exploded-in-recent-years {
@@ -235,7 +242,7 @@ margin-bottom: 86.1px;
     margin-top: 60.1px;
   }
 
-  .Rounded-Rectangle-6 {
+  .Op-component-2  .Rounded-Rectangle-6 {
     width: 857px;
     height: 269.6px;
     border-radius: 10px;
@@ -244,12 +251,12 @@ margin-bottom: 86.1px;
     margin-top: 17.9px;
     margin-left: 212.5px;
   }
-  .Path-22 {
+  .Op-component-2  .Path-22 {
     width: 8.4px;
     height: 29.6px;
     background-color: #ec1f24;
   }
-  .iDizrupt-Training {
+  .Op-component-2  .iDizrupt-Training {
     width: 193px;
     height: 24px;
     font-family: Montserrat;
@@ -257,13 +264,14 @@ margin-bottom: 86.1px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    line-height: 4;
+    line-height: 3;
     letter-spacing: 1px;
     text-align: left;
     color: #262525;
+
     margin-left: 119px;
   }
-  .This-extensive-12-Hour-Bootcamp-is-packed-with-tons-of-educational-material-to-learn-more-about-Crypto-and-the-Blockchain-Expect-to-find-tons-of-videos-and-text-materials-to-make-sure-youve-got-all-your-bases-covered-as-you-navigate-the-space-and-earn-mo {
+  .Op-component-2  .This-extensive-12-Hour-Bootcamp-is-packed-with-tons-of-educational-material-to-learn-more-about-Crypto-and-the-Blockchain-Expect-to-find-tons-of-videos-and-text-materials-to-make-sure-youve-got-all-your-bases-covered-as-you-navigate-the-space-and-earn-mo {
     width: 700px;
     height: 143.4px;
     opacity: 0.8;
@@ -276,20 +284,23 @@ margin-bottom: 86.1px;
     letter-spacing: normal;
     text-align: left;
     color: #262525;
-    margin-top: 65px;
+    margin-top:36px;
     margin-left: 119px;
     
   }
 
-  .Path-3 {
+  .Op-component-2 .Path-3 {
     width: 54.2px;
     height: 54.2px;
     background-color: #ffffff;
-    margin: 6px;
+    margin-top: 17px;
     margin-left: 614px;
+    border-radius: 50%;
 
+    font-size: xxx-large;
+    font-weight: bolder;
   }
-  .Dizruptiv-Forum {
+  .Op-component-2 .Dizruptiv-Forum {
     width: 185px;
     height: 24px;
     font-family: Montserrat;
@@ -303,3 +314,828 @@ margin-bottom: 86.1px;
     color: #262525;
     margin-left: 119px;
   }
+  .Op-component-2 .One-of-the-most-active-parts-of-our-community-is-the-Dizruptiv-Forum-A-meeting-place-for-all-levels-of-crypto-entrepreneurs-and-enthusiasts-our-Forum-is-where-you-can-ask-questions-search-past-content-network-with-like-minded-individuals-and-share-all {
+    width: 700px;
+    height: 181.1px;
+    opacity: 0.8;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+
+    margin-top: 36.9px;
+    margin-left: 117.7px;
+  }
+
+  .Op-component-2  .Both-iDizrupt-training-and-Dizruptiv-Forum-work-hand-in-hand-to-keep-members-educated-informed-and-up-to-date-on-the-most-important-and-lucrative-information-in-this-new-and-exciting-industry {
+    width: 816px;
+    height: 78.9px;
+    opacity: 0.8;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fe0000;
+    margin-left: 231.8px;
+    margin-top: 42.2px;
+  }
+
+  .Op-component-2 .Rounded-Rectangle-7 {
+    width: 857.6px;
+    height: 453.4px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 76px 0 rgba(43, 43, 43, 0.55);
+    background-color: #3b3b3b;
+    margin: 0 auto;
+
+    margin-top: 37.7px;
+  }
+  .Op-component-2 .Vector-Smart-Object-copy-8 {
+    margin-left: -113px;
+    margin-top: -95px;
+  }
+
+  .Op-component-2  .We-are-excited-to-share-that-this-will-be-the-first-program-ever-to-combine-both-an-Education-platform-and-Ongoing-Social-Community-which-will-reveal-ALL-of-the-BEST-KEPT-SECRETS-that-the-biggest-players-in-the-industry-have-been-hidingForget-Crypto-News {
+    width: 993px;
+    height: 243px;
+    opacity: 0.8;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+
+    margin-left: 144px;
+    margin-top: 45.3px;
+  }
+  .Op-component-2  .This-truly-is-a-one-a-kind-program-While-Dizruptive-is-still-relatively-new-it-is-already-packed-with-xxx-pages-of-original-quality-content-including-educational-xx-videos-which-will-teach-you-the-basic-and-advanced-fundamentals-on-how-to-become-succe {
+    width: 993px;
+    height: 232px;
+    opacity: 0.8;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 144px;
+    margin-top: 45.3px;
+  }
+
+
+
+
+  #section-4  .Message-from-Dizruptiv {
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.57;
+    letter-spacing: 2.1px;
+    color: #262525;
+    margin-top: 77px;
+    margin-block-end: 0.5em;
+  }
+
+#section-4  .From-Waseem-Khan-Jivan-Manhas {
+    width: 569.5px;
+    height: 23px;
+    opacity: 0.8;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+
+    margin-top: 72.2px;
+  }
+
+  #section-4  .Rather-than-use-a-variety-of-online-resources-to-control-our-JV-program-we-have-provided-two-easy-ways-to-find-out-everything-you-need-to-know-about-the-highly-anticipated-Dizruptiv-Program {
+    width: 841.5px;
+    height: 96.8px;
+    opacity: 0.8;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #262525;
+
+    margin-top:41px;
+  }
+
+  #section-4  .Click-Here-to-make-your-official-Dizruptiv-Affiliate-Account-now-You-can-scroll-down-this-page-to-find-everything-you-need- {
+    width: 794.7px;
+    height: 75px;
+    opacity: 0.8;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.82;
+    letter-spacing: 1.1px;
+    text-align: left;
+    color: #262525;
+  }
+  
+  #section-4 .Click-Here-to-make-your-official-Dizruptiv-Affiliate-Account-now-You-can-scroll-down-this-page-to-find-everything-you-need- .text-style-1 {
+    font-weight: 600;
+    color: #fe0000;
+  }
+  #section-4 #ulist{
+    list-style: none;
+  }
+  #section-4 .Click-Here-to-make-your-official-Dizruptiv-Affiliate-Account-now-You-can-scroll-down-this-page-to-find-everything-you-need- .Ellipse-20 {
+    width: 14px;
+    height: 14px;
+    opacity: 0.8;
+    background-color: #262525;
+    border-radius: 50%;
+    display: inline-block;
+  }
+#section-4  .If-you-have-any-questions-or-need-any-additional-information-please-do-not-hesitate-to-contact-Waseem-directly-If-you-have-not-been-receiving-any-of-our-emails-please-check-your-SPAM-folder {
+    width: 832.6px;
+    height: 97.3px;
+    opacity: 0.8;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #262525;
+    margin-top: 47.1px;
+  }
+
+  #section-4 .Thank-You {
+    width: 177.6px;
+    height: 29.3px;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    color: #262525;
+    margin-top: 45.7px;
+  }
+  #section-4 .ml-1{
+    margin-left: 211.2px;
+  }
+  #section-4 .ml-2{
+    margin-left: 196px;
+    margin-right: 195.6px;
+  }
+
+  #section-4 .Rounded-Rectangle-11 {
+    width: 287.7px;
+    height: 200.5px;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    text-align: center;
+  }
+
+  #section-4 .row {
+    width: 100%;
+    margin: 0 -5px;
+  }
+
+  #section-4 .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #section-4 .col-card{
+    float: left;
+    width: 33%;
+    margin-bottom:6.9px;
+  }
+
+  #section-4 .rocket-hitting-target {
+    width: 79.3px;
+    height: 79.3px;
+    object-fit: contain;
+  }
+
+  #section-4  .Shape-1 {
+    width: 54.9px;
+    height: 75.8px;
+    object-fit: contain;
+  }
+  #section-4  .Forma-1 {
+    width: 71.5px;
+    height: 68.9px;
+    object-fit: contain;
+  }
+  #section-4  .Group-438 {
+    width: 79.3px;
+    height: 79.3px;
+    object-fit: contain;
+  }
+  #section-4  .Group-437 {
+    width: 82px;
+    height: 70.6px;
+    object-fit: contain;
+  }
+  #section-4  .Group-436 {
+    width: 77.6px;
+    height: 63.6px;
+    object-fit: contain;
+  }
+  #section-4  .Group-440 {
+    width: 83.7px;
+    height: 83.7px;
+    object-fit: contain;
+  }
+  #section-4  .Group-441 {
+    width: 75.8px;
+    height: 75.8px;
+    object-fit: contain;
+  }
+  #section-4  .Forma-1 {
+    width: 80.2px;
+    height: 70.6px;
+    object-fit: contain;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+  }
+  #section-4  .card-tittle{
+      height: 19px;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.75;
+      letter-spacing: 0.8px;
+      text-align: center;
+      color: #000000;
+  }
+  #section-4  .vertical-center {
+    margin: 0;
+    transform: translateY(33%);
+  }
+  #section-5 .Op-component-1 {
+    width: 1280px;
+    height: 1242.7px;
+    background-color: #2a2a2a;
+    margin-top: 107.6px;
+  }
+  #section-5 .Highlights----Reasons-Why-Youll-Want-To-Promote-Dizruptiv-Blockchain-and-Crypto-Education-Program {
+    width: 1165px;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: 2.1px;
+    text-align: center;
+    color: #fe0000;
+    padding-top: 81px;
+    margin: 0 auto;
+  }
+  #section-5  .Rounded-Rectangle-3{
+    margin: 22px auto !important;
+  }
+  #section-5 .Rectangle-569 {
+    width: 1035.3px;
+    height: 822.7px;
+    background-color: #3b3b3b;
+    margin: 0 auto;
+    margin-top:67.1px;
+  }
+
+  #section-5 .Ellipse-18 {
+    width: 24px;
+    height: 24px;
+    background-color: #fe0000;
+    border-radius: 50%;
+  
+  }
+  #section-5 .Dizruptiv-has-been-tested-and-proven-to-CONVERT-with-xxx-PAGES-jammed-packed-with-original-content-and-xx-hours-of-video-recordings {
+  margin-left: 20px;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  #section-5 ul{
+    list-style: none;
+    margin: 0 63px;
+
+  }
+  #section-5 ul li{
+    display: flex;
+    text-align: -webkit-center;
+    padding: 3px 0;
+    margin-bottom: 35px;
+
+  }
+  #section-5 ul .text{
+  width: 9px;
+  height: 19px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  }
+
+  #section-6 .Rectangle-583 {
+    width: 1280px;
+    height: 1129.6px;
+    background-color: #ebebeb;
+  }
+  #section-6 .Commissions-Payments {
+   
+    height: 52px;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: 2.1px;
+    text-align: center;
+    color: #000000;
+    margin:0 auto;
+    padding-top: 83.3px;
+  }
+
+  #section-6 .The-cost-of-Dizruptiv-is-1497-for-the-first-500-people-The-price-to-everyone-after-that-will-be-1997-You-will-also-get-50-commissions-for-each-sale-that-you-refer {
+    width: 988.5px;
+    height: 63.8px;
+    opacity: 0.8;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: center;
+    color: #262525;
+    margin-top: 29.6px;
+  }
+
+  #section-6 .align-center{
+    text-align: -webkit-center;
+  }
+
+
+  #section-6 .This-equates-to-a-commission-of {
+    width: 988.5px;
+    height: 55.8px;
+    opacity: 0.8;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #262525;
+    margin-top: 42.2px;
+  }
+
+  #section-6 .Rectangle-2 {
+    width: 299px;
+    height: 434px;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+  }
+  #section-6  .Rectangle-7 {
+    width: 299px;
+    height: 187px;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    background-color: #f6f7fa;
+    border-radius: 20px 20px 120px 120px;
+  }
+  #section-6 .text{
+      width: 200px;
+      height: 52px;
+      font-family: Montserrat;
+      font-size: 42px;
+      font-weight: 800;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.57;
+      letter-spacing: 4.2px;
+      text-align: center;
+      color: #292929;
+      margin-top: 0px;
+      margin-top: 0px;
+  }
+  #section-6 .vertical-center{
+      text-align: center;
+      position: relative;
+      top: 50%;
+      -ms-transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+  }
+  #section-6   .First-500-courses-sold {
+    width: 235.6px;
+    height: 89.8px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+    color: #292929;
+  }
+
+
+  #section-6 .row {
+    width: 100%;
+    margin: 0 -5px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #section-6 .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #section-6 .col-card{
+    margin:20px
+  }
+
+  #section-6 .ac{
+  height: 50%;
+}
+
+#section-6 .Please-note-that-we-will-also-have-a-payment-plan-option-which-is-3-easy-payments-of-524-for-the-first-500-copies-sold-and-just-3-payments-of-694-thereafter {
+  width: 988.5px;
+  height: 65.8px;
+  opacity: 0.8;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: center;
+  color: #262525;
+}
+#section-6 .Also-please-note-that-although-the-refund-period-is-30-days-the-buyer-must-cancel-the-product-in-order-to-receive-a-full-refund-This-will-help-prevent-customers-from-buying-downloading-and-immediately-returning-the-product {
+  width: 988.5px;
+  height: 102.8px;
+  opacity: 0.8;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: center;
+  color: #262525;
+}
+
+#section-7  .Op-component-1 {
+    width: 1280px;
+    height: 493.8px;
+    background-color: #2a2a2a;
+    text-align: -webkit-center;
+  }
+
+#section-7 p{
+  margin: 0px;
+}
+#section-7  .Sign-Up-As-An-Affiliate {
+    padding-top: 50.1px;
+    width: 559px;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: 2.1px;
+    text-align: center;
+    color: #fe0000;
+  }
+
+  #section-7  .We-have-now-opened-the-doors-to-affiliates-and-like-crypto-those-who-get-in-early-will-benefit-tremendously-If-you-have-a-targeted-email-list-or-high-traffic-blogVlogwebsite-that-you-would-like-to-promote-please {
+    width: 859.9px;
+    height: 148.9px;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+
+    padding-top: 63px;
+  }
+
+  #section-7  .You-may-also-email-me-at-waseemdizruptivcom-if-you-have-any-questions {
+    width: 859.9px;
+    height: 33.9px;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+#section-7  .You-may-also-email-me-at-waseemdizruptivcom-if-you-have-any-questions .text-style-1 {
+    font-weight: bold;
+    color: #fe0000; 
+    display: inline;
+  }
+
+  #section-8 .The-Lead-Challenge {
+    width: 470px;
+    height: 52px;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.71;
+    letter-spacing: 2.1px;
+    text-align: center;
+    color: #000000;
+  }
+
+  #section-8 p{
+    margin: 0;
+  }
+#section-8 .align-center{
+  text-align: -webkit-center;
+}
+.We-have-an-amazing-lead-sequence-lined-up-with-attention-grabbing-high-engagement-content-pieces-that-will-have-your-traffic-and-leads-hitting-the-buy-button {
+  padding-top: 109px;
+  width: 923.9px;
+  height: 92.9px;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  
+}
+
+
+#section-8 .row {
+  width: 100%;
+  margin: 22px -5px;
+  display: flex;
+  justify-content: center;
+}
+
+#section-8 .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#section-8 .col-card{
+  margin:20px
+}
+
+#section-8 .Rounded-Rectangle-11 {
+  width: 350.7px;
+  height: 227.1px;
+  border-radius: 5px;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+
+}
+#section-8 .Lead--Stage-1 {
+  padding-top: 36px;
+  width: 166px;
+  height: 27px;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: 1.1px;
+  text-align: center;
+  color: #fe0000;
+}
+#section-8 .PDF-18-Strategies-Videos {
+  padding-top: 60px;
+  width: 280.4px;
+  height: 66px;
+  opacity: 0.8;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: #262525;
+}
+
+#section-9 .Op-component-1 {
+  width: 1280px;
+  height: 1478px;
+  background-color: #2a2a2a;
+  margin-top: 45.6;
+}
+
+#section-9 .align-center{
+  text-align: -webkit-center;
+}
+#section-9 p{
+  margin: 0;
+}
+#section-9 .Lead-Prizes {
+  padding-top:90.3;
+  width: 1165px;
+  height: 65px;
+  font-family: Montserrat;
+  font-size: 42px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: 2.1px;
+  text-align: center;
+  color: #fe0000;
+}
+
+#section-9 .row {
+  width: 100%;
+  margin: 22px -5px;
+  justify-content: center;
+}
+
+#section-9 .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#section-9 .col-card{
+  width: 33%;
+  float: left;
+}
+
+.card{
+  padding: 2px;
+}
+.head{
+  padding-top: 66px;
+}
+.body{
+  margin-top: 8px;
+}
+.bottom{
+  margin-top: 22px;
+}
+
+.PRIZE-1 {
+  width: 76px;
+  height: 24px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fe0000;
+}
+
+.Mask-Group-5 {
+  width: 273px;
+  height: 272px;
+  object-fit: contain;
+}
+.Rectangle-11 {
+  width: 274px;
+  height: 39px;
+  background-color: #fe0000;
+}
+.Rolex-Submariner-Date-Watch-40-mm-steel {
+  width: 289.9px;
+  height: 54.9px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+#section-9 .text{
+    width: 80.9px;
+    height: 26.9px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+#section-9 .row .col-card .body{
+  position: relative;
+}
+
+#section-9 .Rectangle-11{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#section-9 .Real-Quality-Leads-Only-Fake-Traffic-will-ban-you-from-the-system {
+  width: 859.9px;
+  height: 45.9px;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 87px;
+}
+.This-is-a-Evergreen-Product-build-up-your-leads--launch-first-place-prize-minimum-in-order-to-qualify-is-at-least-4500-leads-second-place-minimum-is-3000-leads-third-place-minimum-is-2000-leads-fourth-place-minimum-is-1500-leads-fifth-place-minimum-is {
+  width: 964.9px;
+  height: 195.9px;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.59;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 17px;
+}
