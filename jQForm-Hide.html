@@ -1,92 +1,159 @@
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <title>jQ-Form</title>
-    <style>
-      .form-img{
-        width: 200px;
-        height: 200px;
-        max-width: 200px;
-        max-height: 200px;
-      }
-      #imageUpload{
-        display: none;
-      }
-      #profileImage {
-          cursor: pointer;
-          border-radius: 4%;
-      }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>jQ-Form</title>
+  <style>
+    .form-img {
+      width: 200px;
+      height: 200px;
+      max-width: 200px;
+      max-height: 200px;
+    }
+
+    #imageUpload {
+      display: none;
+    }
+
+    #profileImage {
+      cursor: pointer;
+      border-radius: 4%;
+    }
+
+    .invalid-feedback {
+      display: contents;
+    }
+  </style>
 </head>
+
 <body>
-    <div class="container py-5">
-        <form class="form">
-            <div class="form-row">
-              <div class="col-md-6">
-                <div class="form-group row">
-                  <label class="col-sm-2 col-form-label" for="firstName">FirstName</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" name="firstName" id="firstName" placeholder="Enter First Name">
-                  </div>
-                </div>
-                <div class="form-group row">
-                  <label class="col-sm-2 col-form-label" for="lasttName">LastName</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Enter Last Name">
-                  </div>
-                </div>
-                <div class="form-group row">
-                  <label class="col-sm-2 col-form-label" for="email">Email</label>
-                  <div class="col-sm-10">
-                    <input type="email" class="form-control" name="Email" id="email" placeholder="Enter Email">
-                  </div>
-                </div>
-                <div class="form-group row">
-                  <label class="col-sm-2 col-form-label" for="password">Password</label>
-                  <div class="col-sm-10">
-                    <input class="form-control" type="password"  name="password" id="password" placeholder="Password">
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                  <img id="profileImage" class="image-fluid form-img" src="assets/images/YQu5k.png" alt="Choose Image">
-                  <input id="imageUpload" class="form-control-file" type="file" name="profile_photo" placeholder="Photo" required="" capture>
-              </div>
-              <button id="submit" type="submit" class="btn btn-primary float-right">Click</button>
+  <div class="container py-5">
+    <form class="form">
+      <div class="form-row">
+        <div class="col-md-6">
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label" for="firstName">FirstName</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control input-field" name="firstName" id="firstName"
+                placeholder="Enter First Name">
             </div>
-          </form>
-    </div>
+
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label" for="lasttName">LastName</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control input-field" name="lastName" id="lastName"
+                placeholder="Enter Last Name">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label" for="email">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control input-field" name="Email" id="email" placeholder="Enter Email">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label" for="password">Password</label>
+            <div class="col-sm-10">
+              <input class="form-control input-field" type="password" name="password" id="password"
+                placeholder="Password">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img id="profileImage" class="image-fluid form-img" src="assets/images/YQu5k.png" alt="Choose Image">
+          <input id="imageUpload" class="form-control-file" type="file" name="profile_photo" placeholder="Photo"
+            required="" capture>
+        </div>
+        <button id="submit" type="submit" class="btn btn-primary float-right">Click</button>
+      </div>
+    </form>
+  </div>
 </body>
 <script>
-  $("#submit").click(function(event){
+
+
+  
+//hide form if valid else show error
+$("#submit").click(function (event) {
     event.preventDefault();
-    $("form").hide("slow");
 
-    var div= $("<div></div>");
-    div.append("<h5>" + $("#firstName").val() + "-" + $("#lastName").val() + "</h5>");
-    div.append("<h5>" + $("#email").val() + "</h5>")
-    div.append("<h5>"+ $("#password").val() +"</h5>")
+    var flag = true; // flag to check if any error occur
 
-    var img = $("<img>");
-    
-    img.attr({
-        "src" : $("#profileImage").attr("src"),
-        "height" : "auto",
-        "width" : "100%"
-    })
+    //validation
+    $("input[type=text],input[type=password],input[type=file]").each(function () {
+      var inValid = $('<div class="invalid-feedback">Invalid!</div>');
+      if ($(this).val() == '') {
+        flag = false;
+        $(this).css({ 'border': ' 1px solid red' });
+        var iv = $(this).next();
+        console.log();
+        if (!iv.is('.invalid-feedback')) {
+          inValid.insertAfter($(this));
+        }
+      }
+      else {
+        $(this).css({ 'border': '1px solid #ced4da' });
+        var iv = $(this).next('.invalid-feedback');
+        if (iv) {
+          iv.remove();
+        }
+      }
+    });
+    $("input[type=email] ").each(function () {
+      if (!IsEmail($(this).val())) {
+        flag=false;
+        var inValid = $('<div class="invalid-feedback">Invalid!</div>');
+        $(this).css({ 'border': '1px solid red' });
+        var iv = $(this).next();
+        if (!iv.is('.invalid-feedback')) {
+          inValid.insertAfter($(this));
+        }
+      }
+      else {
+        $(this).css({ 'border': '1px solid #ced4da' });
+        var iv = $(this).next('.invalid-feedback');
+        if (iv) {
+          iv.remove();
+        }
 
-    div.append(img);
-    $(document.body).prepend(div);
-  })  
+      }
+    });
+
+
+    if (flag == true) {
+      $("form").hide("slow");
+      var div = $("<div></div>");
+      div.append("<h5>" + $("#firstName").val() + "-" + $("#lastName").val() + "</h5>");
+      div.append("<h5>" + $("#email").val() + "</h5>")
+      div.append("<h5>" + $("#password").val() + "</h5>")
+
+      var img = $("<img>");
+      img.attr({
+        "src": $("#profileImage").attr("src"),
+        "height": "auto",
+        "width": "100%"
+      })
+      div.append(img);
+
+      $(document.body).prepend(div);
+    }
+
+  })
 
 
 
 </script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="assets/js/jQuery.js"></script>
+
 </html>
