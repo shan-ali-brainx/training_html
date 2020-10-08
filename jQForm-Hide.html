@@ -84,8 +84,6 @@ $("#submit").click(function (event) {
     event.preventDefault();
 
     var flag = true; // flag to check if any error occur
-
-    //validation
     $("input[type=text],input[type=password],input[type=file]").each(function () {
       var inValid = $('<div class="invalid-feedback">Invalid!</div>');
       if ($(this).val() == '') {
@@ -105,6 +103,9 @@ $("#submit").click(function (event) {
         }
       }
     });
+    
+     
+
     $("input[type=email] ").each(function () {
       if (!IsEmail($(this).val())) {
         flag=false;
@@ -122,6 +123,31 @@ $("#submit").click(function (event) {
           iv.remove();
         }
 
+      }
+    });
+
+    
+     
+    $("input[type=file]").each(function () {
+      var file = this.files[0];
+      var fileType = file["type"];
+      var validImageTypes = ["image/jpeg", "image/png"];
+      var inValid = $('<div class="invalid-feedback">Invalid!</div>');
+      if (($(this).val() == '')   || ($.inArray(fileType, validImageTypes) < 0)) {
+        flag = false;
+        $(this).css({ 'border': ' 1px solid red' });
+        var iv = $(this).next();
+        console.log();
+        if (!iv.is('.invalid-feedback')) {
+          inValid.insertAfter($(this));
+        }
+      }
+      else {
+        $(this).css({ 'border': '1px solid #ced4da' });
+        var iv = $(this).next('.invalid-feedback');
+        if (iv) {
+          iv.remove();
+        }
       }
     });
 
